@@ -20,7 +20,6 @@ https://docs.locust.io/en/stable/writing-a-locustfile.html</Overview>
   <ExtraParams/>
   <PostArgs>-f /mnt/locust/locustfile.py</PostArgs>
   <CPUset/>
-  <DateInstalled>1744517796</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
