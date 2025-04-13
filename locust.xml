@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>locust</Name>
+  <Repository>locustio/locust</Repository>
+  <Registry>https://hub.docker.com/r/locustio/locust</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/locustio/locust</Support>
+  <Project>https://docs.locust.io/en/stable/</Project>
+  <Overview>Web server stress test&#xD;
+locustfile.py is required in /mnt/locust/&#xD;
+See here for examples:&#xD;
+https://docs.locust.io/en/stable/writing-a-locustfile.html</Overview>
+  <Category>Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:8089]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/daman20/ca-xmls/master/deduper.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/SCUR0/scur0.github.io/refs/heads/main/other_projects/docker/locust_400x400.jpg</Icon>
+  <ExtraParams/>
+  <PostArgs>-f /mnt/locust/locustfile.py</PostArgs>
+  <CPUset/>
+  <DateInstalled>1744517796</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Locust directory" Target="/mnt/locust" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/locust/</Config>
+  <Config Name="Web Interface" Target="8089" Default="8089" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8089</Config>
+  <TailscaleStateDir/>
+</Container>
