@@ -16,7 +16,7 @@ https://docs.locust.io/en/stable/writing-a-locustfile.html</Overview>
   <Category>Tools: Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:8089]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/daman20/ca-xmls/master/deduper.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/SCUR0/scur0.github.io/refs/heads/main/other_projects/docker/locust_400x400.jpg</Icon>
+  <Icon>https://raw.githubusercontent.com/SCUR0/Unraid_Docker_Locust/refs/heads/main/locust_400x400.jpg</Icon>
   <ExtraParams/>
   <PostArgs>-f /mnt/locust/locustfile.py</PostArgs>
   <CPUset/>
